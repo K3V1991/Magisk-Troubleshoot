@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.ibb.co/VvjSxct/Magisk-Troubleshoot.png" width="300"></a>
+<p align="center"><img src="https://github.com/K3V1991/Magisk-Troubleshoot/blob/main/Magisk-Troubleshoot.png" width="300"></a>
 <h1 align="center"><b>Magisk Troubleshoot</b></h1>
 <br />
 
