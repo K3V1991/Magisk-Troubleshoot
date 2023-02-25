@@ -2,6 +2,14 @@
 <h1 align="center"><b>Magisk Troubleshoot</b></h1>
 <br />
 
+<p align="center">
+<a href="https://ko-fi.com/k3v1991" alt="Ko-fi"><img src="https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white"> &emsp;
+<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HW8B98TVDLKWA" alt="PayPal"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"> &emsp;
+<a href="https://github.com/K3V1991/Donate-Crypto/blob/main/README.md" alt="Crypto"><img src="https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white">
+</p>
+<hr />
+<br />
+
 * [Magisk - The Magic Mask for Android](https://forum.xda-developers.com/t/magisk-the-magic-mask-for-android.3473445/)
 * [Magisk General Support / Discussion](https://forum.xda-developers.com/t/magisk-general-support-discussion.3432382/)
 <br />
