@@ -73,7 +73,7 @@ Post Details and Logs in the Support Thread.
 <br />
 
 ## Module installed, but not there after rebooting:
-Often caused by the Module using an outdated Module Template. See "Outdated Template".
+Often caused by the Module using an outdated Module Template. See ```Outdated Template```.
 <br />
 <br />
 
@@ -84,7 +84,7 @@ It should automatically ask for Permission when needed, but if this doesn't work
 <br />
 
 ## Process Error:
-If there's a "process error" when installing a Module it is usually caused by the App not having Storage Permission. See above. <br />
+If there's a ```process error``` when installing a Module it is usually caused by the App not having Storage Permission. See above. <br />
 It might also be fixed by clearing Data for the App.
 <br />
 <br />
@@ -96,7 +96,7 @@ Try re-downloading the Zip.
 <br />
 
 ## Unable to extract Zip:
-If you get an Error stating "Unable to extract zip" when installing a Module it might just mean that the Zip has been packaged wrongly. <br />
+If you get an Error stating ```Unable to extract zip``` when installing a Module it might just mean that the Zip has been packaged wrongly. <br />
 Try using a different Program to create the Zip. 
 <br />
 <br />
@@ -105,7 +105,7 @@ Try using a different Program to create the Zip.
 If the Error states that it's not a Magisk Zip or invalid Zip in TWRP, the Zip is not packaged correctly. <br />
 Open up the Zip and you'll likely see a Folder (named something like <NameOfModule>-master or similar). <br />
 Take all the Contents of that Folder and repack it to the Root of the Zip and try flashing it again. <br />
-It might also be that you or whoever made the Module forgot to add the Line "#MAGISK" to the updater-script File.
+It might also be that you or whoever made the Module forgot to add the Line ```#MAGISK``` to the updater-script File.
 <br />
 <br />
 
@@ -130,10 +130,10 @@ Since Magisk v19.4, there's an ADB Command that can be used to uninstall all Mod
 2. Restart your Device and as soon as ADB is available the Command will activate, the Modules will be removed and the Device will reboot. <br />
 **Note:** If you do not have USB Debugging enabled ADB won't work and you'll need to use Safe Mode instead.
 
-* Navigate to the Module's Directory under ```/data/adb/modules/``` and rename any File in there to "remove" or "disable"
+* Navigate to the Module's Directory under ```/data/adb/modules/``` and rename any File in there to ```remove``` or ```disable```
 
 * In Terminal you can use the touch Command: ```touch /data/adb/modules/<module folder>/remove``` or ```/data/adb/modules/<module folder>/disable```, depending on your Preference <br />
-**Note:** If you create the "remove" or "disable" Files, Magisk will take Care of removing or disabling the Module on the next Reboot.
+**Note:** If you create the ```remove``` or ```disable``` Files, Magisk will take Care of removing or disabling the Module on the next Reboot.
 
 * Simply delete the Module's Folder under ```/data/adb/modules```. This is the last Resort since it won't run any uninstall Script that the Module might use
 <br />
@@ -147,7 +147,7 @@ Once you reboot back to Normal Android the Modules will remain disabled and you 
 
 ## Boot into Android Safe Mode:
 There should be a Button Combination available to activate Safe Mode. <br />
-Usually it is something like holding the "Power Button" until the OEM Splash Screen shows and then switching to holding "Volume down" until your Device boots into Safe Mode. <br />
+Usually it is something like holding the ```Power Button``` until the OEM Splash Screen shows and then switching to holding ```Volume down``` until your Device boots into Safe Mode. <br />
 If you cannot get the Button Combination working, you could also disable Magisk completely by flashing the Stock Boot Image to your Device. 
 <br />
 <br />
@@ -159,4 +159,4 @@ These might make it easier for you to manage any installed Modules when you can'
 <br />
 
 ## Logs:
-If an Error occurs when installing a Module, save the Install Log by clicking on the "Disk Icon" Button. <br />
+If an Error occurs when installing a Module, save the Install Log by clicking on the ```Disk Icon``` Button. <br />
